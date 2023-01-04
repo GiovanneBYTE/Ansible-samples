@@ -1,4 +1,5 @@
----
+- name: teste
+  hosts: all
   tasks:
       - name: criar um diretorio teste
         file:
