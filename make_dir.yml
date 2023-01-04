@@ -3,7 +3,7 @@
   tasks:
       - name: criar um diretorio teste
         file:
-                path: /teste
+                path: teste_ansible
                 state: directory
                 owner: root
                 group: root
