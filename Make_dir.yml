@@ -1,0 +1,9 @@
+---
+  tasks:
+      - name: criar um diretorio teste
+        file:
+                path: /teste
+                state: directory
+                owner: root
+                group: root
+                mode: 0775
